@@ -11,6 +11,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { ColorSchemeName, Pressable, View } from 'react-native';
 
+
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ModalScreen from '../screens/ModalScreen';
@@ -19,7 +20,7 @@ import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
-import { Ionicons, Entypo } from '@expo/vector-icons';
+import { Ionicons, Entypo, Fontisto } from '@expo/vector-icons';
 
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
@@ -83,7 +84,7 @@ function BottomTabNavigator() {
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
+      initialRouteName="Chats"
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme].background,
         tabBarStyle:{
@@ -121,32 +122,22 @@ function BottomTabNavigator() {
         component={TabOneScreen}
         options={{
           // title: 'Chats',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          tabBarIcon: ({ color }) => <Fontisto name="camera" color={color} size={15} />,
+          tabBarLabel: () => null
         }}
       />
       <BottomTab.Screen
         name="Chats"
         component={TabTwoScreen}
-        options={{
-          // title: 'Chats',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
       />
       <BottomTab.Screen
         name="Status"
         component={TabTwoScreen}
-        options={{
-          // title: 'Chats',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
       />
       <BottomTab.Screen
-        name="Call"
+        name="Calls"
         component={TabTwoScreen}
-        options={{
-          // title: 'Chats',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
+        
       />
       
     </BottomTab.Navigator>
