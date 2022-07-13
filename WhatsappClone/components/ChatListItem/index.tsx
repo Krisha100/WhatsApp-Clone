@@ -17,7 +17,7 @@ const ChatListItem = (props: ChatListItemProps) => {
     
 
     // <TouchableOpacity
-    //         onPress={() => alert("Clicked on ${user.name}")}
+    //         onPress={() => console.warn(`Clicked on ${user.name}`)}
             
     //       >
     
