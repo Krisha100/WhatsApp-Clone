@@ -15,13 +15,17 @@ WhatsApp-Clone is a front-end application built using React Native with Expo, Ty
 
 ## Demonstrations
 
-### Chat Screen
+### Chat Page
 
 It shows a list of name and profile pictures of people with whom user chatted along with last message recieved. The date of last message recieved is shown on the right.
 
-### ChatRoom Screen
+### Contacts Page
 
-On clicking any username on the Chat screen app navigates to ChatRoom screen. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top left, we can navigate back to the main chat screen. 
+It shows a list of Contacts along with name and profile picture.
+
+### ChatRoom Page
+
+On clicking any username on the Chat page, app navigates to ChatRoom page. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top left, we can navigate back to the main chat screen. 
 
 ### Message tab 
 
