@@ -21,6 +21,10 @@ It shows a list of name and profile pictures of people with whom user chatted al
 
 ### ChatRoom Screen
 
-On clicking any username on the Chat screen app navigates to ChatRoom screen. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top right, we can navigate back to the main chat screen.
+On clicking any username on the Chat screen app navigates to ChatRoom screen. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top left, we can navigate back to the main chat screen. 
+
+### Message tab 
+
+It shows a 'Type a message' text until some message is typed along with attach a file, camera and microphone icon. When a message is typed microphone changes to send icon. 
 
 
