@@ -11,7 +11,7 @@
 
 ## WhatsApp-Clone Overview
 
-WhatsApp-Clone is a front-end application built using React Native with Expo, TypeScript and React Navigation v5. The Chats tab shows a list of people and the last message received in a vertically scrollable form. Each individual ChatRoom screen has the list of texts between main user and person on other end with some other functionalities and buttons. The Contacts screen accessed by pressing little sqaure icon on bottom right it displays a list of contacts with last message.
+WhatsApp-Clone is a front-end application built using React Native with Expo, TypeScript and React Navigation v5. The Chats tab shows a list of people and the last message received in a vertically scrollable form. Each individual Chat screen has the list of texts between main user and person on other end with some other functionalities and buttons. The Contacts screen accessed by pressing little sqaure icon on bottom right, displays a list of contacts with last message.
 
 ## Demonstrations
 
