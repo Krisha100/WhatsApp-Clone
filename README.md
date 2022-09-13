@@ -19,16 +19,36 @@ WhatsApp-Clone is a front-end application built using React Native with Expo, Ty
 
 It shows a list of name and profile pictures of people with whom user chatted along with last message recieved. The date of last message recieved is shown on the right.
 
+<img src="https://user-images.githubusercontent.com/57967961/189992993-cf4b14fe-f5d7-4b96-9913-8f9169fddd22.jpeg" width="250">
+
 ### Contacts Page
 
 It shows a list of Contacts along with name and profile picture.
 
+<img src="https://user-images.githubusercontent.com/57967961/189993325-e32422cd-d423-476c-b76f-9860366d7c96.jpeg" width="250">
+
+
 ### Chat Page
 
-On clicking any username on the Chat page, app navigates to ChatRoom page. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top left, we can navigate back to the main chat screen. 
+On clicking any username on the Chat Room page, app navigates to Chat page. It features a list of chats amongst users. The green box indicates message sent while white box is for message recieved. By pressing the arrow on top left, we can navigate back to the main chat room screen. 
+
+<img src="https://user-images.githubusercontent.com/57967961/189993748-273789b4-f44d-4a53-aa26-fae734a567da.jpeg" width="250">
+
 
 ### Message tab 
 
 It shows a 'Type a message' text until some message is typed along with attach a file, camera and microphone icon. When a message is typed microphone changes to send icon. 
+
+<img src="https://user-images.githubusercontent.com/57967961/189994234-ec114985-39c4-47d5-b1d6-7f33884dd482.jpeg" width="250">
+
+<img src="https://user-images.githubusercontent.com/57967961/189994289-ca65a314-dbdb-4ca9-8666-5a66fab00660.jpeg" width="250">
+
+## Tools
+- VS Code
+- GitHub
+
+## Technologies
+
+- Frontend UI engine: React Native / TypeScript
 
 
